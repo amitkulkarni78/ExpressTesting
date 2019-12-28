@@ -1,0 +1,13 @@
+please follow the npm commands 
+
+test with jest : 
+npm run test-jest
+
+test with mocha:
+npm run test
+
+get jest test converage:
+npm run jest-coverage
+
+get mocha test coverage: 
+npm run coverage-report 
