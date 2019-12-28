@@ -1,3 +1,11 @@
+
+mongo db collection will be created automatically:
+
+for change of configuration : 
+goto app >> environments >> dev.env file
+change the "DBURL" to your connection url
+change the "PORT" to your desired server port
+
 please follow the npm commands 
 
 test with jest : 
