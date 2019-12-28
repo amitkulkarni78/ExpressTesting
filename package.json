@@ -1,0 +1,34 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "SET NODE_ENV=test && mocha --timeout 10000 --exit",
+    "test-jest": "SET NODE_ENV=test && jest --detectOpenHandles",
+    "start": "NODE_ENV=dev && node server.js",
+    "start-win": "SET NODE_ENV=dev && node server.js",
+    "dev": "node set NODE_ENV=dev server.js",
+    "start-nodemon": "SET NODE_ENV=dev&& nodemon server.js",
+    "coverage": "nyc npm run test",
+    "jest-coverage": "jest --detectOpenHandles --collect-coverage",
+    "coverage-report": "nyc --reporter=html --report-dir=.mochcoverage mocha --timeout 10000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "mongoose": "^5.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-env": "^6.0.3",
+    "mocha": "^6.2.2",
+    "mockgoose": "^8.0.4",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
+  }
+}

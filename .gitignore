@@ -1,0 +1,6 @@
+/.nyc_output
+/.mochcoverage/
+/node_modules
+/coverage
+dockerfile
+docker-compose.yaml
